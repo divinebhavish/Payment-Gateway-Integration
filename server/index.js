@@ -17,7 +17,7 @@ app.use(
     })
 );
 
-// Body parser
+// Body parser, Middle ware
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
